@@ -1,0 +1,104 @@
+<!--
+ Main XHTML Strict Template for the Open University TT284 Web technologies EMA
+ Created by Leire Larrea Casado (E1662175)
+ Version 1.1 (January 2017)
+-->
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+		
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>OURCAP Send News</title>
+	
+	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+	<meta http-equiv="content-Style-Type" content="text/css" />
+	<meta name="author" content="Leire Larrea" />
+	<meta name="description" content="Write OURC news articles here" />
+	<meta name="keywords" content="OURC, news, articles" />
+	
+	<link rel="stylesheet" type="text/css" href="ou_stylesheet_Wide.css" />
+	<script type="text/javascript" src="ourc_scrypt.js"> </script>
+
+</head>
+<body>
+	<div id="page">
+		
+		<div id="header">
+			<a href="under-construction.html" title="Open University Running Club" id="headerLogo">
+				<span>OURC Admin Page</span>
+			</a>
+		</div>
+		
+		<div id="adNavbar">
+	  		<div class="adMenu"> <a href="under-construction.html">Admin Home</a> </div>
+			<div class="adMenu"> <a href="under-construction.html">Members</a> </div>
+			<div class="adMenu"> <a href="under-construction.html">Events</a> </div>
+			<div class="adMenu"> <a href="under-construction.html">Email</a> </div>
+			<div class="adMenuActive"> <a href="admin-news.html">News</a> </div>
+			
+		</div> 
+		
+		<div id="login">
+			<div class="adminLogin"><a href="under-construction.html">Log Out</a> </div>
+			<div class="adminLogin"><a href="under-construction.html">Sample User</a> </div>
+		</div>
+		
+		<div id="contents">
+				<h1>Submit News Article</h1>
+				<p> Note: all fields marked '*' are mandatory.</p>
+				<p> You can use tab keys to move from one input field to the next.</p>
+				
+				<form action="http://students.open.ac.uk/mct/tt284/reflect/reflect.php" method="post" >
+				<table>
+						<tr>
+							<td>Hidden Author:*</td>
+							<td><input type="hidden" name="sessionID" value="ABCDEF01-AABB-CCDD-EEFF-ABCDEF012345" /></td>
+						</tr>
+						<tr>
+							<td>Date First Showing:*</td>
+							<td><input type="text" name="Date" id="fd" size="48" maxlength="10"   /></td>
+						</tr>
+						<tr>
+							<td>Date Last Showing:*</td>
+							<td><input type="text" name="Date" id="ld" size="48" maxlength="10"  /></td>
+						</tr>
+								<tr>
+							<td>Attachments:</td>
+							<td> <input type="text" name="neAttachment" id="neatt" size="40" maxlength="50" />
+							<input type="button" value="Attach" onclick="window.location.href='attach.html'" /></td>
+						</tr>			
+						<tr>
+							<td>Text:*</td>
+							<td><textarea id="text-input" rows="20" cols="50" onkeyup="checkWordLen(this);"> </textarea></td>
+						</tr>
+						<tr>
+							<td> <input type="button" value="Check Spelling" onclick="window.location.href='spellchecker.html'" /></td>
+						</tr>
+					</table>
+					<p>
+					<input type="submit" name="submitnews" value="Publish"  />
+					<input type="button" value="Cancel" onclick="window.location.href='admin-news.html'" />
+					</p>
+			</form>
+	
+		</div>
+
+		<div class="clear"> </div >
+		
+		<div id="footer">
+			<div class="iFooter"><a href="under-construction.html">Privacy</a></div>
+			<div class="iFooter">| </div>
+			<div class="iFooter"><a href="under-construction.html">Contact</a> </div>
+			<div class="iFooter">| </div>
+			<div class="iFooter"><a href="under-construction.html">FAQs</a></div>
+			<div class="iFooter">| </div>
+			<div class="iFooter"><a href="under-construction.html">Copyright</a></div>
+			<div class="iFooter">| </div>
+			<div class="iFooter"><a href="under-construction.html">Conditions of Use</a>  </div>
+		</div>
+
+	</div>
+</body>
+</html>

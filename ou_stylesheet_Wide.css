@@ -1,0 +1,156 @@
+/* CSS Wide stylesheet for Solution Design Question for the Open University TT284 Web technologies EMA
+ Created by Leire Larrea Casado (E1662175)
+ Version 1.1 (June 2017)
+*/
+
+
+/*  ---------       GENEAL, BODY, PAGE, HEADER  ------------ */
+
+body 	{
+	padding: 0;
+	text-align: justify;
+	font-family: "Century Gothic", Verdana, sans-serif;
+	font-size: 13px;
+	color: #1c1c3a;
+	}
+	
+#page	{
+	width: 1000px;
+	height: 100%;  
+
+	}
+	
+p 	{
+	text-align: left;
+	}
+
+a	{
+	text-decoration:none;
+	color:#252F33;
+	}
+	
+a:hover {
+    font-weight: bold;
+	}
+	
+.clear	{
+	clear: both;
+}
+
+/*  ---------       LOGIN  ------------ */
+
+#login	{
+	width: 300px;
+	float: right;
+	font-weight:bold;
+	z-index: 10;
+}
+
+.adminLogin	{
+	float: right;
+	padding: 30px;
+}
+	
+/*  ---------       HEADER  ------------ */
+	
+#headerLogo	{
+	background: url(emaMobileResources/images/carousel01.jpg) no-repeat ;
+	background-size:100%;
+	display: block;
+	height:300px;
+	width: 1000px;
+}
+
+#header span	{
+	text-align:left;
+	font-family: "Century Gothic", Verdana, sans-serif;
+	font-size:30px;
+	font-weight:bold;
+	color: #ffffff;
+	margin: 0px;
+	padding-left: 50px;
+	line-height:470px;
+}
+
+	
+/*  ---------       ADMIN MENU  ------------ */
+#adNavbar	{
+	width: 1000px;
+	position: relative;
+	float:left;
+	}
+
+.adMenu	{
+	height: 40px;
+	width: 200px;
+	float: left;
+	text-align:center;
+	font-family: "Century Gothic", Verdana, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding-top:19px;
+	background-color: #385a91;
+	}
+
+.adMenu:hover{
+	background-color:#5e8274;
+	}
+	
+.adMenu	a{
+	color: #ffffff;
+	}
+
+.adMenuActive	{
+	height:40px;
+	width: 200px;
+	float: left;
+	text-align:center;
+	font-family: "Century Gothic", Verdana, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	background-color:#b8c1b8;
+	padding-top:19px;
+	}
+	
+.adMenuActive	a{	
+	color:#333333;
+	}
+
+
+
+/*  ---------       CONTENTS WRAPPER     ------------ */
+#contents{
+	display: block;
+	float: left;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 70px;
+	padding-bottom: 50px;
+	width: 700px;
+	text-align:left;
+	font-family:"Century-Gothic", Verdana, sans-serif;
+	line-height:20px;
+
+	}
+
+
+
+
+
+/*  ---------       FOOTER     ------------ */
+#footer {
+	width: 1000px;
+	height:60px;
+	text-align:center;
+	font-size:10px;
+	color:#000000;
+	padding-top:100px;
+	}
+
+.iFooter	{
+	display: block;
+	float: left;
+	width: 110px;
+	}
+
+	
